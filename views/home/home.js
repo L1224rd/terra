@@ -3,8 +3,6 @@ const gel = element => document.querySelector(element);
 const speed = 5;
 
 document.addEventListener('keydown', (e) => {
-  e.preventDefault();
-
   const commands = {
     key37: {
       axis: 'left',
